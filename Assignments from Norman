@@ -1,3 +1,5 @@
+# this code takes a list and checks if an element is present in the list.
+
 def find_element(list1,element):
     for item in range(len(list1)):
         count=0
