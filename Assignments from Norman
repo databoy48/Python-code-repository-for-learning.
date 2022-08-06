@@ -10,3 +10,22 @@ def find_element(list1,element):
 list1=[22,33,44,5,43,21]
 element=int(input('what do you wanna find? '))
 find_element(list1,element)
+
+
+# this code takes two lists and find elements
+
+def find_two_elements(list1,list2,element):
+    for i in range(len(list1)):
+        for j in range(len(list2)):
+            count=0
+            if list1[i]==element:
+                count+=1
+            elif list2[j]==element:
+                count+=2
+        else:
+            print('both lists')
+            return count
+list1=[22,33,44,5,43,21]
+list2=[3,4,5,60,68,22,111] 
+element=int(input('what? '))
+find_two_elements(list1,list2,element)
