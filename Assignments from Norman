@@ -1,0 +1,10 @@
+def find_element(list1,element):
+    for item in range(len(list1)):
+        count=0
+        if list1[item]==element:
+            count+=1
+            return count
+    
+list1=[22,33,44,5,43,21]
+element=int(input('what do you wanna find? '))
+find_element(list1,element)
